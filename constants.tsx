@@ -90,6 +90,14 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Phionephione/WeebVibe",
     liveUrl: "https://weebvibe.onrender.com",
   },
+  {
+  title: "Invisibility Cloak App",
+  description: "A computer vision application that creates a real-time 'invisibility cloak' effect using OpenCV to perform color detection and background masking.",
+  tags: ["Python", "OpenCV", "Computer Vision"],
+  image: "/hp.jpg",
+  githubUrl: "https://github.com/Phionephione/invisibility-cloak-app",
+  liveUrl: "https://invisibility-cloak-app.onrender.com",
+  },
 ];
 
 // FIX: Add and export missing EDUCATION constant
