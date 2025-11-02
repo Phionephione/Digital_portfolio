@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -54,6 +53,19 @@
         
         mask-image: radial-gradient(circle 150px at var(--mouse-x) var(--mouse-y), black, transparent);
         -webkit-mask-image: radial-gradient(circle 150px at var(--mouse-x) var(--mouse-y), black, transparent);
+      }
+
+      @media (max-width: 768px) {
+        .interactive-grid-background {
+          background-image:
+            linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        }
+        .interactive-grid-background::after {
+          mask-image: none;
+          -webkit-mask-image: none;
+          background-image: none;
+        }
       }
     </style>
   <script type="importmap">
